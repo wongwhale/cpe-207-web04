@@ -1,0 +1,20 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "chash course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "parinyakorn",
+  "license": "ISC",
+  "dependencies": {
+    "generic-image-server": "^1.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
